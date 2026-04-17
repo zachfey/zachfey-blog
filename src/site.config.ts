@@ -2,26 +2,14 @@ import type { AstroExpressiveCodeOptions } from "astro-expressive-code";
 import type { SiteConfig } from "@/types";
 
 export const siteConfig: SiteConfig = {
-	// ! Please remember to replace the following site property with your own domain, used in astro.config.ts
-	url: "https://astro-cactus.chriswilliams.dev/",
-	/*
-		- Used to construct the meta title property found in src/components/BaseHead.astro L:11
-		- The webmanifest name found in astro.config.ts L:42
-		- The link value found in src/components/layout/Header.astro L:35
-		- In the footer found in src/components/layout/Footer.astro L:12
-	*/
-	title: "Astro Cactus",
-	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
-	author: "Chris Williams",
-	// Used as the default description meta property and webmanifest description
-	description: "An opinionated starter theme for Astro",
-	// HTML lang property, found in src/layouts/Base.astro L:18 & astro.config.ts L:48
-	lang: "en-GB",
-	// Meta property, found in src/components/BaseHead.astro L:42
-	ogLocale: "en_GB",
-	// Date.prototype.toLocaleDateString() parameters, found in src/utils/date.ts.
+	url: "https://zachfey.com/",
+	title: "Zach Fey",
+	author: "Zach Fey",
+	description: "Software Architect. Engineer with a passion for building.",
+	lang: "en-US",
+	ogLocale: "en_US",
 	date: {
-		locale: "en-GB",
+		locale: "en-US",
 		options: {
 			day: "numeric",
 			month: "short",
@@ -43,10 +31,6 @@ export const menuLinks: { path: string; title: string }[] = [
 	{
 		path: "/posts/",
 		title: "Blog",
-	},
-	{
-		path: "/notes/",
-		title: "Notes",
 	},
 ];
 
