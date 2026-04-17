@@ -7,7 +7,7 @@ draft: false
 pinned: false
 ---
 
-Automated evidence collection is essential for meeting today's compliance and security requirements. At risk3sixty, we've built a tool within our FullCircle platform called the **Extension Engine** — it enables us and our clients to create and run scripts that automatically collect evidence and upload it directly to the platform.
+Automated evidence collection is essential for meeting today's compliance and security requirements. At risk3sixty, we've built a tool within our fullCircle platform called the **Extension Engine** — it enables us and our clients to create and run scripts that automatically collect evidence and upload it directly to the platform.
 
 To streamline updates, we integrated the Extension Engine's deployment into our GitHub Actions CI/CD pipeline. Here's the architecture, the challenges, and how we solved them.
 

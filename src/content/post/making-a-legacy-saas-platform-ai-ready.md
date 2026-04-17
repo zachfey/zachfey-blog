@@ -1,11 +1,13 @@
 ---
-title: "Making a Legacy SaaS Platform AI-Ready"
-description: "How we added semantic search to FullCircle to make compliance data conversational, agent-traversable, and truly AI-ready."
+title: "Adding AI-Powered Semantic Search to a Legacy SaaS Platform"
+description: "How we added semantic search to fullCircle to make compliance data conversational, agent-traversable, and truly AI-ready."
 publishDate: "17 Apr 2026"
 tags: ["ai", "semantic-search", "embeddings", "saas", "postgres"]
 draft: false
 pinned: true
 ---
+
+## Context
 
 When fullCircle was built in 2019, data had one job: respond to the right REST endpoint. That worked for years.
 
