@@ -1,5 +1,5 @@
 ---
-title: "Adding AI-Powered Semantic Search to a Legacy SaaS Platform"
+title: "Adding AI-Powered Semantic Search to a SaaS Platform"
 description: "How we added semantic search to fullCircle to make compliance data conversational, agent-traversable, and truly AI-ready."
 publishDate: "17 Apr 2026"
 tags: ["ai", "semantic-search", "embeddings", "saas", "postgres"]
